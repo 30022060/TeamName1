@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TN1CLASS
 {
-    class Program
+    public class Program
     {
         class Employee
         {
