@@ -56,7 +56,7 @@ namespace TN1WinForm
         {
             if(text_name.Text != "" 
                 && text_age.Text != ""
-                && text_ird.Text != ""
+                && text_ird.Text != ""  //If the text boxes are empty, show error message
                 && text_bank.Text != "" 
                 && text_pay.Text != ""
                 && text_hr.Text != "")
@@ -68,17 +68,19 @@ namespace TN1WinForm
                 e1.Pay = double.Parse(text_pay.Text);
                 e1.Hrs = int.Parse(text_hr.Text);
 
+                listBox1.Items.Add("EMPLOYEE CREATED");
+                listBox1.Items.Add("***************");
                 listBox1.Items.Add("Full Name: " + e1.Name);
-                listBox1.Items.Add("Age: " + e1.Age);
+                listBox1.Items.Add("Age: " + e1.Age);                  //Text in text boxes get display in listbox
                 listBox1.Items.Add("IRD Number: " + e1.Ird);
                 listBox1.Items.Add("Bank Name: " + e1.Bank);
                 listBox1.Items.Add("Weekly Salary: $" + e1.Pay);
                 listBox1.Items.Add("Hours Worked in a Week: " + e1.Hrs);
-                listBox1.Items.Add("\n***************");
+                listBox1.Items.Add("***************");
             }
             else
             {
-                MessageBox.Show("ERROR. EMPTY TEXTBOX DETECTED.");
+                MessageBox.Show("ERROR. EMPTY TEXTBOX DETECTED."); // error message
             }
 
         }
