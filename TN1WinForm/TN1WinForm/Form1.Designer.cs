@@ -42,13 +42,18 @@
             this.lbl_bank = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.GroupBox = new System.Windows.Forms.GroupBox();
-            this.details = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // text_name
             // 
             this.text_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.text_name.Location = new System.Drawing.Point(24, 188);
+            this.text_name.Location = new System.Drawing.Point(33, 194);
             this.text_name.Name = "text_name";
             this.text_name.Size = new System.Drawing.Size(245, 32);
             this.text_name.TabIndex = 0;
@@ -57,7 +62,7 @@
             // text_age
             // 
             this.text_age.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.text_age.Location = new System.Drawing.Point(24, 249);
+            this.text_age.Location = new System.Drawing.Point(33, 255);
             this.text_age.Name = "text_age";
             this.text_age.Size = new System.Drawing.Size(245, 32);
             this.text_age.TabIndex = 1;
@@ -66,7 +71,7 @@
             // text_ird
             // 
             this.text_ird.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.text_ird.Location = new System.Drawing.Point(24, 310);
+            this.text_ird.Location = new System.Drawing.Point(33, 316);
             this.text_ird.Name = "text_ird";
             this.text_ird.Size = new System.Drawing.Size(245, 32);
             this.text_ird.TabIndex = 2;
@@ -75,7 +80,7 @@
             // text_bank
             // 
             this.text_bank.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.text_bank.Location = new System.Drawing.Point(24, 372);
+            this.text_bank.Location = new System.Drawing.Point(33, 378);
             this.text_bank.Name = "text_bank";
             this.text_bank.Size = new System.Drawing.Size(245, 32);
             this.text_bank.TabIndex = 3;
@@ -84,7 +89,7 @@
             // text_pay
             // 
             this.text_pay.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.text_pay.Location = new System.Drawing.Point(24, 433);
+            this.text_pay.Location = new System.Drawing.Point(33, 439);
             this.text_pay.Name = "text_pay";
             this.text_pay.Size = new System.Drawing.Size(245, 32);
             this.text_pay.TabIndex = 4;
@@ -93,7 +98,7 @@
             // text_hr
             // 
             this.text_hr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.text_hr.Location = new System.Drawing.Point(24, 499);
+            this.text_hr.Location = new System.Drawing.Point(33, 505);
             this.text_hr.Name = "text_hr";
             this.text_hr.Size = new System.Drawing.Size(245, 32);
             this.text_hr.TabIndex = 5;
@@ -102,7 +107,7 @@
             // lbl_ird
             // 
             this.lbl_ird.AutoSize = true;
-            this.lbl_ird.Location = new System.Drawing.Point(27, 294);
+            this.lbl_ird.Location = new System.Drawing.Point(36, 300);
             this.lbl_ird.Name = "lbl_ird";
             this.lbl_ird.Size = new System.Drawing.Size(26, 13);
             this.lbl_ird.TabIndex = 7;
@@ -111,7 +116,7 @@
             // lbl_pay
             // 
             this.lbl_pay.AutoSize = true;
-            this.lbl_pay.Location = new System.Drawing.Point(27, 417);
+            this.lbl_pay.Location = new System.Drawing.Point(36, 423);
             this.lbl_pay.Name = "lbl_pay";
             this.lbl_pay.Size = new System.Drawing.Size(25, 13);
             this.lbl_pay.TabIndex = 8;
@@ -120,7 +125,7 @@
             // lbl_hr
             // 
             this.lbl_hr.AutoSize = true;
-            this.lbl_hr.Location = new System.Drawing.Point(27, 483);
+            this.lbl_hr.Location = new System.Drawing.Point(36, 489);
             this.lbl_hr.Name = "lbl_hr";
             this.lbl_hr.Size = new System.Drawing.Size(35, 13);
             this.lbl_hr.TabIndex = 9;
@@ -130,7 +135,7 @@
             // lbl_name
             // 
             this.lbl_name.AutoSize = true;
-            this.lbl_name.Location = new System.Drawing.Point(27, 168);
+            this.lbl_name.Location = new System.Drawing.Point(36, 174);
             this.lbl_name.Name = "lbl_name";
             this.lbl_name.Size = new System.Drawing.Size(35, 13);
             this.lbl_name.TabIndex = 10;
@@ -139,7 +144,7 @@
             // lbl_age
             // 
             this.lbl_age.AutoSize = true;
-            this.lbl_age.Location = new System.Drawing.Point(27, 233);
+            this.lbl_age.Location = new System.Drawing.Point(36, 239);
             this.lbl_age.Name = "lbl_age";
             this.lbl_age.Size = new System.Drawing.Size(26, 13);
             this.lbl_age.TabIndex = 11;
@@ -148,7 +153,7 @@
             // lbl_bank
             // 
             this.lbl_bank.AutoSize = true;
-            this.lbl_bank.Location = new System.Drawing.Point(27, 356);
+            this.lbl_bank.Location = new System.Drawing.Point(36, 362);
             this.lbl_bank.Name = "lbl_bank";
             this.lbl_bank.Size = new System.Drawing.Size(32, 13);
             this.lbl_bank.TabIndex = 6;
@@ -157,7 +162,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(24, 550);
+            this.button1.Location = new System.Drawing.Point(33, 556);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 34);
             this.button1.TabIndex = 12;
@@ -167,7 +172,7 @@
             // 
             // GroupBox
             // 
-            this.GroupBox.Location = new System.Drawing.Point(14, 127);
+            this.GroupBox.Location = new System.Drawing.Point(23, 133);
             this.GroupBox.Name = "GroupBox";
             this.GroupBox.Size = new System.Drawing.Size(287, 472);
             this.GroupBox.TabIndex = 13;
@@ -175,21 +180,72 @@
             this.GroupBox.Text = "FORM APPLICATION";
             this.GroupBox.Enter += new System.EventHandler(this.GroupBox_Enter);
             // 
-            // details
+            // label1
             // 
-            this.details.AutoSize = true;
-            this.details.Location = new System.Drawing.Point(507, 188);
-            this.details.Name = "details";
-            this.details.Size = new System.Drawing.Size(35, 13);
-            this.details.TabIndex = 14;
-            this.details.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(337, 206);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(11, 13);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "*";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(337, 267);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(11, 13);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "*";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(337, 328);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(11, 13);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "*";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(337, 390);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(11, 13);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "*";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(337, 458);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(11, 13);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "*";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(337, 517);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(11, 13);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "*";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 627);
-            this.Controls.Add(this.details);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(1111, 626);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_age);
             this.Controls.Add(this.lbl_name);
@@ -227,7 +283,12 @@
         private System.Windows.Forms.Label lbl_bank;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox GroupBox;
-        private System.Windows.Forms.Label details;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 

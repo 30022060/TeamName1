@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23A23164-C806-4B44-97CD-ABDD8B63E906}</ProjectGuid>
+    <ProjectGuid>{EF9EB59E-434A-4237-A37D-7E147718ADC5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TN1WinForm</RootNamespace>
-    <AssemblyName>TN1WinForm</AssemblyName>
+    <RootNamespace>PopUp</RootNamespace>
+    <AssemblyName>PopUp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,12 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TN1-CLASS\TN1-CLASS.csproj">
-      <Project>{0ac65c75-2007-4d16-8ef1-4d651497dd4a}</Project>
-      <Name>TN1-CLASS</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

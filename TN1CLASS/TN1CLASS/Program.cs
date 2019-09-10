@@ -8,7 +8,7 @@ namespace TN1CLASS
 {
     public class Program
     {
-        class Employee
+        public class Employee
         {
             private string bank;
             private int ird;
@@ -24,10 +24,6 @@ namespace TN1CLASS
             public string Name { get { return name; } set { name = value; } }
             public int Age { get { return age; } set { age = value; } }
 
-            public Employee()
-            {
-
-            }
             public Employee(string _bank, int _ird, double _pay, int _hrs, string _name, int _age)
             {
                 Bank = _bank;
