@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TN1WinForm", "TN1WinForm\TN1WinForm.csproj", "{23A23164-C806-4B44-97CD-ABDD8B63E906}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TN1CLASS", "..\TN1CLASS\TN1CLASS\TN1CLASS.csproj", "{9FD0503E-04E4-41E4-972E-F3FDD3992476}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TN1-CLASS", "TN1-CLASS\TN1-CLASS.csproj", "{0AC65C75-2007-4D16-8EF1-4D651497DD4A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopUp", "PopUp\PopUp.csproj", "{EF9EB59E-434A-4237-A37D-7E147718ADC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +17,10 @@ Global
 		{23A23164-C806-4B44-97CD-ABDD8B63E906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A23164-C806-4B44-97CD-ABDD8B63E906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A23164-C806-4B44-97CD-ABDD8B63E906}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FD0503E-04E4-41E4-972E-F3FDD3992476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FD0503E-04E4-41E4-972E-F3FDD3992476}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FD0503E-04E4-41E4-972E-F3FDD3992476}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FD0503E-04E4-41E4-972E-F3FDD3992476}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0AC65C75-2007-4D16-8EF1-4D651497DD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0AC65C75-2007-4D16-8EF1-4D651497DD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AC65C75-2007-4D16-8EF1-4D651497DD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AC65C75-2007-4D16-8EF1-4D651497DD4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF9EB59E-434A-4237-A37D-7E147718ADC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF9EB59E-434A-4237-A37D-7E147718ADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF9EB59E-434A-4237-A37D-7E147718ADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF9EB59E-434A-4237-A37D-7E147718ADC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -37,7 +37,7 @@ namespace TN1_CLASS
         }
         public string EmployeeDtls()
         {
-            return $"Name: {Name}\nAge: {Age}\nIrd: {Ird}\nBank: {Bank}\nPay: {Pay}\nHrs: {Hrs}";
+            return $"Full Name: {Name}\nAge: {Age}\nIRD Number: {Ird}\nBank: {Bank}\nAnnual Salary: {Pay}\nHours worked in a week: {Hrs}";
 
         }
 
