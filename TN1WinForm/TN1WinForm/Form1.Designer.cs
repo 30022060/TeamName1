@@ -42,12 +42,6 @@
             this.lbl_bank = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.GroupBox = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
@@ -110,27 +104,27 @@
             this.lbl_ird.AutoSize = true;
             this.lbl_ird.Location = new System.Drawing.Point(68, 259);
             this.lbl_ird.Name = "lbl_ird";
-            this.lbl_ird.Size = new System.Drawing.Size(26, 13);
+            this.lbl_ird.Size = new System.Drawing.Size(66, 13);
             this.lbl_ird.TabIndex = 7;
-            this.lbl_ird.Text = "IRD";
+            this.lbl_ird.Text = "IRD Number";
             // 
             // lbl_pay
             // 
             this.lbl_pay.AutoSize = true;
             this.lbl_pay.Location = new System.Drawing.Point(68, 382);
             this.lbl_pay.Name = "lbl_pay";
-            this.lbl_pay.Size = new System.Drawing.Size(25, 13);
+            this.lbl_pay.Size = new System.Drawing.Size(75, 13);
             this.lbl_pay.TabIndex = 8;
-            this.lbl_pay.Text = "Pay";
+            this.lbl_pay.Text = "Weekly Salary";
             // 
             // lbl_hr
             // 
             this.lbl_hr.AutoSize = true;
             this.lbl_hr.Location = new System.Drawing.Point(68, 448);
             this.lbl_hr.Name = "lbl_hr";
-            this.lbl_hr.Size = new System.Drawing.Size(35, 13);
+            this.lbl_hr.Size = new System.Drawing.Size(130, 13);
             this.lbl_hr.TabIndex = 9;
-            this.lbl_hr.Text = "Hours";
+            this.lbl_hr.Text = "Hours Worked In A Week";
             this.lbl_hr.Click += new System.EventHandler(this.label4_Click);
             // 
             // lbl_name
@@ -138,9 +132,9 @@
             this.lbl_name.AutoSize = true;
             this.lbl_name.Location = new System.Drawing.Point(68, 133);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(35, 13);
+            this.lbl_name.Size = new System.Drawing.Size(54, 13);
             this.lbl_name.TabIndex = 10;
-            this.lbl_name.Text = "Name";
+            this.lbl_name.Text = "Full Name";
             // 
             // lbl_age
             // 
@@ -156,9 +150,9 @@
             this.lbl_bank.AutoSize = true;
             this.lbl_bank.Location = new System.Drawing.Point(68, 321);
             this.lbl_bank.Name = "lbl_bank";
-            this.lbl_bank.Size = new System.Drawing.Size(32, 13);
+            this.lbl_bank.Size = new System.Drawing.Size(63, 13);
             this.lbl_bank.TabIndex = 6;
-            this.lbl_bank.Text = "Bank";
+            this.lbl_bank.Text = "Bank Name";
             this.lbl_bank.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
@@ -181,60 +175,6 @@
             this.GroupBox.Text = "FORM APPLICATION";
             this.GroupBox.Enter += new System.EventHandler(this.GroupBox_Enter);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(369, 165);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(11, 13);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "*";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(369, 226);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(11, 13);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "*";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(369, 287);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(11, 13);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "*";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(369, 349);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(11, 13);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "*";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(369, 417);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(11, 13);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "*";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(369, 476);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(11, 13);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "*";
-            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
@@ -250,12 +190,6 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(778, 604);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_age);
             this.Controls.Add(this.lbl_name);
@@ -293,12 +227,6 @@
         private System.Windows.Forms.Label lbl_bank;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox GroupBox;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ListBox listBox1;
     }
 }

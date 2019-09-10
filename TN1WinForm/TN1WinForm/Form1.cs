@@ -68,12 +68,12 @@ namespace TN1WinForm
                 e1.Pay = double.Parse(text_pay.Text);
                 e1.Hrs = int.Parse(text_hr.Text);
 
-                listBox1.Items.Add(e1.Name);
-                listBox1.Items.Add(e1.Age);
-                listBox1.Items.Add(e1.Ird);
-                listBox1.Items.Add(e1.Bank);
-                listBox1.Items.Add(e1.Pay);
-                listBox1.Items.Add(e1.Hrs);
+                listBox1.Items.Add("Full Name: " + e1.Name);
+                listBox1.Items.Add("Age: " + e1.Age);
+                listBox1.Items.Add("IRD Number: " + e1.Ird);
+                listBox1.Items.Add("Bank Name: " + e1.Bank);
+                listBox1.Items.Add("Weekly Salary: $" + e1.Pay);
+                listBox1.Items.Add("Hours Worked in a Week: " + e1.Hrs);
                 listBox1.Items.Add("\n***************");
             }
             else
@@ -103,12 +103,7 @@ namespace TN1WinForm
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            listBox1.Items.Add(text_name.Text);
-            listBox1.Items.Add(text_age.Text);
-            listBox1.Items.Add(text_ird.Text);
-            listBox1.Items.Add(text_bank.Text);
-            listBox1.Items.Add(text_pay.Text);
-            listBox1.Items.Add(text_hr.Text);
+            
         }
 
     }
